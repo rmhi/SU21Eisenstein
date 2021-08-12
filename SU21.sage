@@ -1118,10 +1118,3 @@ def Index3congruence(a,b,c,d):
         return str(homg)
     return ArithGp(name,key,latex_name=latex_name)
 
-
-for n in range(1,100):
-    for beta in K.elements_of_norm(n):
-        G = Gamma0(3) & GammaNC(beta)
-        print(G.index(), G.H_1().short_name())
-
-
