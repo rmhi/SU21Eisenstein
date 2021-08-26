@@ -1,3 +1,11 @@
+"""
+This code was written by Richard M. Hill,
+Department of Mathematics, University College London.
+It is available at https://github.com/rmhi/SU21Eisenstein
+It runs on sagemath version 9.0.
+"""
+
+
 K.<omega>=NumberField(x^2+x+1)
 OK = K.ring_of_integers()
 omega = OK(omega)     # omega is a primitive cube root of unity
